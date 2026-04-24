@@ -42,7 +42,7 @@ gem 'bootsnap', require: false
 # https://github.com/iain/elo
 gem 'elo'
 # https://github.com/saulabs/trueskill
-gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
+gem 'trueskill', path: 'vendor/gems/trueskill', require: 'saulabs/trueskill'
 
 # https://chartkick.com/
 gem 'chartkick'
